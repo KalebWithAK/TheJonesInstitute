@@ -39,6 +39,11 @@ main {
         width: 84px;
     }
 
+    header > nav > a {
+        text-align: right;
+        width: 100%;
+    }
+
     main {
         height: calc(100vh - 150px);
     }
@@ -48,10 +53,12 @@ main {
 
     .hero > h3 {
         right: 16px;
-        bottom: 200px;
+        bottom: 78px;
+        font-size: 40px
     }
     .hero > h2 {
         right: 16px;
-        bottom: 0px;
+        bottom: 32px;
+        font-size: 48px;
     }
   }
