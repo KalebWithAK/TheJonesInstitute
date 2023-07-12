@@ -29,3 +29,30 @@ main {
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 150px;
+    }
+    header h1 {
+        width: 84px;
+    }
+
+    main {
+        height: calc(100vh - 150px);
+        border: solid red 1px;
+    }
+    .hero {
+        text-align: right;
+    }
+
+    .hero > h3 {
+        right: 16px;
+        bottom: 200px;
+    }
+    .hero > h2 {
+        right: 16px;
+        bottom: 0px;
+    }
+  }

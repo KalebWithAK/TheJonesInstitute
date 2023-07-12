@@ -1,0 +1,14 @@
+@media  screen and (max-width:400px) {
+    html, body {
+        width: 100vw;
+    }
+    
+    header {
+        display: flex;
+    }
+    
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
