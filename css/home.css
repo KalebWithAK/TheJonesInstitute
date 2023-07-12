@@ -41,7 +41,6 @@ main {
 
     main {
         height: calc(100vh - 150px);
-        border: solid red 1px;
     }
     .hero {
         text-align: right;
