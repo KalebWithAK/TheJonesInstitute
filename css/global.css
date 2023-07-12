@@ -148,3 +148,7 @@ p {
 .dropdown:hover > .dropdown-content > a:hover {
     background-color: rgba(255,255,255, 0.2);
 }
+
+footer {
+    padding: 16px 32px 32px;
+}
