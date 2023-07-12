@@ -159,12 +159,20 @@ footer {
         margin: 0;
         padding: 0;
     }
+
+    header {
+        height: 4px;
+        box-sizing: border-box;
+    }
     header h1 {
         width: 84px;
+        height: 84px;
     }
 
     header nav {
         flex-direction: column;
+        height: 84px;
+        gap: 1px;
     }
 
 }
