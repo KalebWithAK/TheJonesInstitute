@@ -31,7 +31,7 @@ main {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 844px) {
     header {
         height: 150px;
     }
